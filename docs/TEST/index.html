@@ -1,11 +1,17 @@
 <html>
   <body>
     <h1>TEST Web Server</h1>
-      <script>
-        function hello(name){
-          alert("Hello, " + name + "!");
-        }
-        hello("JIM");
-      </script>
+    <script>
+      function hello(name){
+        alert("Hello, " + name + "!");
+      }
+      hello("JIM");
+    </script>
+    <script>
+      var screen = document.getElementById( "screen" );
+      var div = document.createElement( "div");
+      div.innerHTML = "hello world";
+      screen.appendChild( div );
+    </script>
   </body>
 </html>
