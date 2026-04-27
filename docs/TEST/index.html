@@ -1,15 +1,15 @@
 <html>
   <head>
     <title>BIG test Hello</title>
+      <script>
+        function hello(name){
+          console.log("In script 1");
+          alert("Hello, " + name + "!");
+      }  
+    </script>
   </head>
   <body id="screen">
     <h1>TEST Web Server</h1>
-    <script>
-      function hello(name){
-        console.log("In script 1");
-        alert("Hello, " + name + "!");
-      }
-    </script>
     <script>
       console.log("In script 2");
       var screen = document.getElementById( "screen" );
