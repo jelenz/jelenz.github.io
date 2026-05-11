@@ -1,21 +1,24 @@
 <html>
   <head>
     <title>BIG test Hello</title>
-      <script>
-        function hello(name){
-          console.log("In script 1");
-          alert("Hello, " + name + "!");
-      }  
+    <script>
+      function hello(name) {
+        console.log("In script 1");
+        const screen = document.getElementById("screen");
+        const h1 = document.createElement("h1");
+        h1.innerHTML = "Hello, " + name + "!";
+        screen.appendChild(h1);
+      }
     </script>
   </head>
   <body id="screen">
     <h1>TEST Web Server</h1>
     <script>
       console.log("In script 2");
-      var screen = document.getElementById( "screen" );
-      var h2 = document.createElement( "h2");
+      var screen = document.getElementById("screen");
+      var h2 = document.createElement("h2");
       h2.innerHTML = "Hello, world!";
-      screen.appendChild( h2 );
+      screen.appendChild(h2);
       hello("JIM");
     </script>
   </body>
