@@ -1,0 +1,10 @@
+{
+   "editor.codeActionsOnSave": {
+      "source.fixAll.prettier": "explicit"
+   },
+   "prettier.bracketSpacing": true,
+   "prettier.printWidth": 100,
+   "prettier.tabWidth": 3,
+   "prettier.singleQuote": true,
+   "prettier.trailingComma": "none"
+}
