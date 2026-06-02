@@ -2,14 +2,25 @@
   <head>
     <title>BIG test Hello</title>
     <script>
+      const t = [
+        "tsra",
+        "sct",
+        "few",
+        "rain_showers",
+        "tsra_sct",
+        "tsra_few",
+        "bkn",
+        "skc"
+      ];
       function hello(name, pct) {
         console.log("In script 1");
         const screen = document.getElementById("screen");
         const h1 = document.createElement("h1");
         h1.innerHTML = "Hello, " + name + "!";
         screen.appendChild(h1);
+        const type = t[Math.floor(Math.random() * t.length)];
         const img = document.createElement("img");
-        img.src = `https://api.weather.gov/icons/land/day/ra,${pct}?size=small`;
+        img.src = `https://api.weather.gov/icons/land/day/${type},${pct}?size=small`;
         img.alt = "Image should be here";
         screen.appendChild(img);
       }
