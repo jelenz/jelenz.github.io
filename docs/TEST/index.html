@@ -1,46 +1,38 @@
 <html>
-  <head>
-    <title>BIG test Hello</title>
-    <script>
-      const t = [
-        "tsra",
-        "sct",
-        "few",
-        "rain_showers",
-        "tsra_sct",
-        "tsra_hi",
-        "bkn",
-        "skc"
-      ];
-      function hello(name, pct) {
-        console.log("In script 1");
-        const screen = document.getElementById("screen");
-        const h1 = document.createElement("h1");
-        h1.innerHTML = "Hello, " + name + "!";
-        screen.appendChild(h1);
-        const type = t[Math.floor(Math.random() * t.length)];
-        const img = document.createElement("img");
-        img.src = `https://api.weather.gov/icons/land/day/${type},${pct}?size=small`;
-        img.alt = "Image should be here";
-        screen.appendChild(img);
-      }
-    </script>
-  </head>
-  <body id="screen">
-    <h1 style="align-self: center">TEST Web Server</h1>
-    <img
-      src="https://api.weather.gov/icons/land/day/tsra,60?size=large"
-      alt="Image should be here"
-    />
-    <script>
-      console.log("In script 2");
-      var screen = document.getElementById("screen");
-      var h2 = document.createElement("h2");
-      h2.innerHTML = "Hello, world!";
-      screen.appendChild(h2);
-      hello("JIM", 40);
-      hello("JEN", 60);
-      hello("Sally", 80);
-    </script>
-  </body>
+   <head>
+      <title>BIG test Hello</title>
+      <script>
+         const t = ['tsra', 'sct', 'few', 'rain_showers', 'tsra_sct', 'tsra_hi', 'bkn', 'skc'];
+         function hello(name, pct) {
+            console.log('In script 1');
+            const screen = document.getElementById('screen');
+            const h1 = document.createElement('h1');
+            h1.innerHTML = 'Hello, ' + name + '!';
+            screen.appendChild(h1);
+            const type = t[Math.floor(Math.random() * t.length)];
+            const img = document.createElement('img');
+            img.src = `https://api.weather.gov/icons/land/day/${type},${pct}?size=small`;
+            img.alt = 'Image should be here';
+            screen.appendChild(img);
+         }
+      </script>
+   </head>
+   <body id="screen">
+      <h1 style="align-self: center">TEST Web Server</h1>
+      <a href="/../TEST2/index.html">Go to TEST2</a>
+      <img
+         src="https://api.weather.gov/icons/land/day/tsra,60?size=large"
+         alt="Image should be here"
+      />
+      <script>
+         console.log('In script 2');
+         var screen = document.getElementById('screen');
+         var h2 = document.createElement('h2');
+         h2.innerHTML = 'Hello, world!';
+         screen.appendChild(h2);
+         hello('JIM', 40);
+         hello('JEN', 60);
+         hello('Sally', 80);
+      </script>
+   </body>
 </html>
