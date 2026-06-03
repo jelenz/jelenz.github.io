@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/jlenz/IconCMO/githubIO/jelenz.github.io/docs/LocalWeather/app/layout.tsx"],"sourcesContent":["import type { Metadata } from \"next\";\n\nexport const metadata: Metadata = {\n  title: \"Local Weather\",\n  description: \"A simple weather app\"\n};\n\nexport default function Layout({ children }: { children: React.ReactNode }) {\n  return (\n    <html lang=\"en\" className={\"h-full antialiased\"}>\n      <body>{children}</body>\n    </html>\n  );\n}\n"],"names":["metadata","title","description","Layout","children","lang","className"],"mappings":";;;;;;;;AAEO,MAAMA,WAAqB;IAChCC,OAAO;IACPC,aAAa;AACf;AAEe,SAASC,OAAO,EAAEC,QAAQ,EAAiC;IACxE,qBACE,8OAAC;QAAKC,MAAK;QAAKC,WAAW;kBACzB,cAAA,8OAAC;sBAAMF;;;;;;;;;;;AAGb"}},
+    {"offset": {"line": 41, "column": 0}, "map": {"version":3,"sources":["file:///Users/jlenz/IconCMO/githubIO/jelenz.github.io/docs/LocalWeather/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}

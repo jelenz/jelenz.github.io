@@ -1,23 +1,24 @@
 {
-  "homepage": "http://jelenz.github.io/LocalWeather",
-  "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
-    "@fontsource/roboto": "^5.2.10",
-    "@mui/material": "^9.0.0",
-    "next": "^16.2.3",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5"
-  },
-  "scripts": {
-    "dev": "next dev",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "devDependencies": {
-    "@types/node": "25.6.0",
-    "@types/react": "19.2.14",
-    "gh-pages": "^6.3.0",
-    "typescript": "6.0.2"
-  }
+   "homepage": "http://jelenz.github.io/LocalWeather",
+   "dependencies": {
+      "@emotion/react": "^11.14.0",
+      "@emotion/styled": "^11.14.1",
+      "@fontsource/roboto": "^5.2.10",
+      "@mui/material": "^9.0.0",
+      "next": "^16.2.3",
+      "react": "^19.2.5",
+      "react-dom": "^19.2.5"
+   },
+   "scripts": {
+      "dev": "next dev",
+      "build": "react-scripts build",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d build"
+   },
+   "devDependencies": {
+      "@types/node": "25.6.0",
+      "@types/react": "19.2.14",
+      "gh-pages": "^6.3.0",
+      "typescript": "6.0.2"
+   }
 }

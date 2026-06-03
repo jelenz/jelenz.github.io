@@ -9,10 +9,9 @@
           "filename": "app/getHourlyMeteoData.ts"
         }
       },
-      "filename": "app/getHourlyMeteoData.ts",
-      "exportedName": "default"
+      "exportedName": "default",
+      "filename": "app/getHourlyMeteoData.ts"
     }
   },
-  "edge": {},
-  "encryptionKey": "4amiqSoJf27BzHhQ8B4zktyrm3zlQeiBVpbJx8g7Vfs="
+  "edge": {}
 }
