@@ -1,0 +1,18 @@
+{
+  "node": {
+    "60d599792ea1b570d2b590921cba292d0524f1ec18": {
+      "workers": {
+        "app/page": {
+          "moduleId": 86678,
+          "async": false,
+          "exportedName": "default",
+          "filename": "app/getHourlyMeteoData.ts"
+        }
+      },
+      "filename": "app/getHourlyMeteoData.ts",
+      "exportedName": "default"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "A8vsN7B1j57ch1LomNSWrgJVxwm4YbECxcGRh5uHz5Y="
+}

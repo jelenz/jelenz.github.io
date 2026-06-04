@@ -5,13 +5,13 @@
       "@emotion/styled": "^11.14.1",
       "@fontsource/roboto": "^5.2.10",
       "@mui/material": "^9.0.0",
-      "next": "^16.2.3",
-      "react": "^19.2.5",
-      "react-dom": "^19.2.5"
+      "next": "^16.2.7",
+      "react": "^19.2.7",
+      "react-dom": "^19.2.7"
    },
    "scripts": {
       "dev": "next dev",
-      "build": "react-scripts build",
+      "build": "next build",
       "predeploy": "npm run build",
       "deploy": "gh-pages -d build"
    },
